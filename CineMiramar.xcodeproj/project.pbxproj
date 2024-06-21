@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847DE8F42C25E63E00C545CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE8F32C25E63E00C545CE /* AppDelegate.swift */; };
+		847DE8F62C25E63E00C545CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE8F52C25E63E00C545CE /* SceneDelegate.swift */; };
+		847DE8F82C25E63E00C545CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE8F72C25E63E00C545CE /* ViewController.swift */; };
+		847DE8FB2C25E63E00C545CE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 847DE8FA2C25E63E00C545CE /* Base */; };
+		847DE8FE2C25E63E00C545CE /* CineMiramar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847DE8FC2C25E63E00C545CE /* CineMiramar.xcdatamodeld */; };
+		847DE9002C25E64000C545CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847DE8FF2C25E64000C545CE /* Assets.xcassets */; };
+		847DE9032C25E64000C545CE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 847DE9022C25E64000C545CE /* Base */; };
+		847DE90E2C25E64000C545CE /* CineMiramarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE90D2C25E64000C545CE /* CineMiramarTests.swift */; };
+		847DE9182C25E64000C545CE /* CineMiramarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE9172C25E64000C545CE /* CineMiramarUITests.swift */; };
+		847DE91A2C25E64000C545CE /* CineMiramarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE9192C25E64000C545CE /* CineMiramarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847DE90A2C25E64000C545CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847DE8E82C25E63E00C545CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847DE8EF2C25E63E00C545CE;
+			remoteInfo = CineMiramar;
+		};
+		847DE9142C25E64000C545CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847DE8E82C25E63E00C545CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847DE8EF2C25E63E00C545CE;
+			remoteInfo = CineMiramar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847DE8F02C25E63E00C545CE /* CineMiramar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineMiramar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DE8F32C25E63E00C545CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847DE8F52C25E63E00C545CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847DE8F72C25E63E00C545CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847DE8FA2C25E63E00C545CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847DE8FD2C25E63E00C545CE /* CineMiramar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CineMiramar.xcdatamodel; sourceTree = "<group>"; };
+		847DE8FF2C25E64000C545CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847DE9022C25E64000C545CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847DE9042C25E64000C545CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847DE9092C25E64000C545CE /* CineMiramarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineMiramarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DE90D2C25E64000C545CE /* CineMiramarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineMiramarTests.swift; sourceTree = "<group>"; };
+		847DE9132C25E64000C545CE /* CineMiramarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineMiramarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DE9172C25E64000C545CE /* CineMiramarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineMiramarUITests.swift; sourceTree = "<group>"; };
+		847DE9192C25E64000C545CE /* CineMiramarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineMiramarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847DE8ED2C25E63E00C545CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DE9062C25E64000C545CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DE9102C25E64000C545CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847DE8E72C25E63E00C545CE = {
+			isa = PBXGroup;
+			children = (
+				847DE8F22C25E63E00C545CE /* CineMiramar */,
+				847DE90C2C25E64000C545CE /* CineMiramarTests */,
+				847DE9162C25E64000C545CE /* CineMiramarUITests */,
+				847DE8F12C25E63E00C545CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847DE8F12C25E63E00C545CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847DE8F02C25E63E00C545CE /* CineMiramar.app */,
+				847DE9092C25E64000C545CE /* CineMiramarTests.xctest */,
+				847DE9132C25E64000C545CE /* CineMiramarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847DE8F22C25E63E00C545CE /* CineMiramar */ = {
+			isa = PBXGroup;
+			children = (
+				847DE8F32C25E63E00C545CE /* AppDelegate.swift */,
+				847DE8F52C25E63E00C545CE /* SceneDelegate.swift */,
+				847DE8F72C25E63E00C545CE /* ViewController.swift */,
+				847DE8F92C25E63E00C545CE /* Main.storyboard */,
+				847DE8FF2C25E64000C545CE /* Assets.xcassets */,
+				847DE9012C25E64000C545CE /* LaunchScreen.storyboard */,
+				847DE9042C25E64000C545CE /* Info.plist */,
+				847DE8FC2C25E63E00C545CE /* CineMiramar.xcdatamodeld */,
+			);
+			path = CineMiramar;
+			sourceTree = "<group>";
+		};
+		847DE90C2C25E64000C545CE /* CineMiramarTests */ = {
+			isa = PBXGroup;
+			children = (
+				847DE90D2C25E64000C545CE /* CineMiramarTests.swift */,
+			);
+			path = CineMiramarTests;
+			sourceTree = "<group>";
+		};
+		847DE9162C25E64000C545CE /* CineMiramarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847DE9172C25E64000C545CE /* CineMiramarUITests.swift */,
+				847DE9192C25E64000C545CE /* CineMiramarUITestsLaunchTests.swift */,
+			);
+			path = CineMiramarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847DE8EF2C25E63E00C545CE /* CineMiramar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DE91D2C25E64000C545CE /* Build configuration list for PBXNativeTarget "CineMiramar" */;
+			buildPhases = (
+				847DE8EC2C25E63E00C545CE /* Sources */,
+				847DE8ED2C25E63E00C545CE /* Frameworks */,
+				847DE8EE2C25E63E00C545CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CineMiramar;
+			productName = CineMiramar;
+			productReference = 847DE8F02C25E63E00C545CE /* CineMiramar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847DE9082C25E64000C545CE /* CineMiramarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DE9202C25E64000C545CE /* Build configuration list for PBXNativeTarget "CineMiramarTests" */;
+			buildPhases = (
+				847DE9052C25E64000C545CE /* Sources */,
+				847DE9062C25E64000C545CE /* Frameworks */,
+				847DE9072C25E64000C545CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847DE90B2C25E64000C545CE /* PBXTargetDependency */,
+			);
+			name = CineMiramarTests;
+			productName = CineMiramarTests;
+			productReference = 847DE9092C25E64000C545CE /* CineMiramarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847DE9122C25E64000C545CE /* CineMiramarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DE9232C25E64000C545CE /* Build configuration list for PBXNativeTarget "CineMiramarUITests" */;
+			buildPhases = (
+				847DE90F2C25E64000C545CE /* Sources */,
+				847DE9102C25E64000C545CE /* Frameworks */,
+				847DE9112C25E64000C545CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847DE9152C25E64000C545CE /* PBXTargetDependency */,
+			);
+			name = CineMiramarUITests;
+			productName = CineMiramarUITests;
+			productReference = 847DE9132C25E64000C545CE /* CineMiramarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847DE8E82C25E63E00C545CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					847DE8EF2C25E63E00C545CE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					847DE9082C25E64000C545CE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 847DE8EF2C25E63E00C545CE;
+					};
+					847DE9122C25E64000C545CE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 847DE8EF2C25E63E00C545CE;
+					};
+				};
+			};
+			buildConfigurationList = 847DE8EB2C25E63E00C545CE /* Build configuration list for PBXProject "CineMiramar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847DE8E72C25E63E00C545CE;
+			productRefGroup = 847DE8F12C25E63E00C545CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847DE8EF2C25E63E00C545CE /* CineMiramar */,
+				847DE9082C25E64000C545CE /* CineMiramarTests */,
+				847DE9122C25E64000C545CE /* CineMiramarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847DE8EE2C25E63E00C545CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DE9002C25E64000C545CE /* Assets.xcassets in Resources */,
+				847DE9032C25E64000C545CE /* Base in Resources */,
+				847DE8FB2C25E63E00C545CE /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DE9072C25E64000C545CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DE9112C25E64000C545CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847DE8EC2C25E63E00C545CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DE8FE2C25E63E00C545CE /* CineMiramar.xcdatamodeld in Sources */,
+				847DE8F82C25E63E00C545CE /* ViewController.swift in Sources */,
+				847DE8F42C25E63E00C545CE /* AppDelegate.swift in Sources */,
+				847DE8F62C25E63E00C545CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DE9052C25E64000C545CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DE90E2C25E64000C545CE /* CineMiramarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DE90F2C25E64000C545CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DE9182C25E64000C545CE /* CineMiramarUITests.swift in Sources */,
+				847DE91A2C25E64000C545CE /* CineMiramarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847DE90B2C25E64000C545CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847DE8EF2C25E63E00C545CE /* CineMiramar */;
+			targetProxy = 847DE90A2C25E64000C545CE /* PBXContainerItemProxy */;
+		};
+		847DE9152C25E64000C545CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847DE8EF2C25E63E00C545CE /* CineMiramar */;
+			targetProxy = 847DE9142C25E64000C545CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847DE8F92C25E63E00C545CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DE8FA2C25E63E00C545CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847DE9012C25E64000C545CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DE9022C25E64000C545CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847DE91B2C25E64000C545CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847DE91C2C25E64000C545CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847DE91E2C25E64000C545CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CineMiramar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upal.CineMiramar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847DE91F2C25E64000C545CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CineMiramar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upal.CineMiramar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		847DE9212C25E64000C545CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upal.CineMiramarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CineMiramar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CineMiramar";
+			};
+			name = Debug;
+		};
+		847DE9222C25E64000C545CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upal.CineMiramarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CineMiramar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CineMiramar";
+			};
+			name = Release;
+		};
+		847DE9242C25E64000C545CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upal.CineMiramarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CineMiramar;
+			};
+			name = Debug;
+		};
+		847DE9252C25E64000C545CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upal.CineMiramarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CineMiramar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847DE8EB2C25E63E00C545CE /* Build configuration list for PBXProject "CineMiramar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DE91B2C25E64000C545CE /* Debug */,
+				847DE91C2C25E64000C545CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DE91D2C25E64000C545CE /* Build configuration list for PBXNativeTarget "CineMiramar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DE91E2C25E64000C545CE /* Debug */,
+				847DE91F2C25E64000C545CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DE9202C25E64000C545CE /* Build configuration list for PBXNativeTarget "CineMiramarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DE9212C25E64000C545CE /* Debug */,
+				847DE9222C25E64000C545CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DE9232C25E64000C545CE /* Build configuration list for PBXNativeTarget "CineMiramarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DE9242C25E64000C545CE /* Debug */,
+				847DE9252C25E64000C545CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		847DE8FC2C25E63E00C545CE /* CineMiramar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				847DE8FD2C25E63E00C545CE /* CineMiramar.xcdatamodel */,
+			);
+			currentVersion = 847DE8FD2C25E63E00C545CE /* CineMiramar.xcdatamodel */;
+			path = CineMiramar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 847DE8E82C25E63E00C545CE /* Project object */;
+}
