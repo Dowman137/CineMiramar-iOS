@@ -17,6 +17,7 @@
 		847DE90E2C25E64000C545CE /* CineMiramarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE90D2C25E64000C545CE /* CineMiramarTests.swift */; };
 		847DE9182C25E64000C545CE /* CineMiramarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE9172C25E64000C545CE /* CineMiramarUITests.swift */; };
 		847DE91A2C25E64000C545CE /* CineMiramarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE9192C25E64000C545CE /* CineMiramarUITestsLaunchTests.swift */; };
+		84DC3E772C2A37A0007D01FA /* MainProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC3E762C2A37A0007D01FA /* MainProductsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		847DE9132C25E64000C545CE /* CineMiramarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CineMiramarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		847DE9172C25E64000C545CE /* CineMiramarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineMiramarUITests.swift; sourceTree = "<group>"; };
 		847DE9192C25E64000C545CE /* CineMiramarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineMiramarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84DC3E762C2A37A0007D01FA /* MainProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProductsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				847DE9012C25E64000C545CE /* LaunchScreen.storyboard */,
 				847DE9042C25E64000C545CE /* Info.plist */,
 				847DE8FC2C25E63E00C545CE /* CineMiramar.xcdatamodeld */,
+				84DC3E762C2A37A0007D01FA /* MainProductsCollectionViewCell.swift */,
 			);
 			path = CineMiramar;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				847DE8F82C25E63E00C545CE /* ViewController.swift in Sources */,
 				847DE8F42C25E63E00C545CE /* AppDelegate.swift in Sources */,
 				847DE8F62C25E63E00C545CE /* SceneDelegate.swift in Sources */,
+				84DC3E772C2A37A0007D01FA /* MainProductsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -380,6 +384,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -429,12 +434,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -446,13 +452,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMG3J55D6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CineMiramar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,13 +480,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SMG3J55D6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CineMiramar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
